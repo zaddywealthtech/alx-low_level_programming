@@ -1,20 +1,21 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
-*main - Begin here
-*
-*Return: Value of 0 success
-*/
+ *  main - print _putchar
+ *  is written by kanayo
+ *  Return: 0
+ */
 
 int main(void)
 {
-	char text[] = "_putchar";
-	int i;
-
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(text[i]);
-	}
-	_putchar('\n');
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
